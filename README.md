@@ -56,12 +56,12 @@ touch src/server.ts
 
 ## 🛠 Tecnologias
 
-  - [Node] 
-  - [Express] 
-  - [TypeScript]
-  - [TypeORM]
-  - [Postgres]
-  - [UUID]
+  - [x] Node 
+  - [x] Express
+  - [x] TypeScript
+  - [x] TypeORM
+  - [x] Postgres
+  - [x] UUID
 
 
 ---
