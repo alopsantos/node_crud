@@ -1,0 +1,39 @@
+### Categorias
+GET http://localhost:3000/categories
+###
+
+
+POST http://localhost:3000/categories
+Content-Type: application/json
+
+{
+  "name": "Aventura",
+  "description": "Filmes"
+}
+###
+
+DELETE http://localhost:3000/categories/aa2e294f-2455-4fe8-b4e5-db20686e1961
+###
+
+PATCH   http://localhost:3000/categories/58ec3770-dab8-4c49-9833-caeb1305c4ae
+Content-Type: application/json
+
+{
+  "name": "Romance",
+  "description": "Filmes"
+}
+
+### Videos
+GET http://localhost:3000/videos
+
+###
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+      "name":"Jupter",
+      "description": "Colheita de humanos",
+      "duration": "160",
+      "category_id": "58ec3770-dab8-4c49-9833-caeb1305c4ae"
+}
+###
